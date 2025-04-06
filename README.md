@@ -62,13 +62,13 @@ The repository has been reorganized into a modular structure for better separati
 
 The application randomly selects from 5 unique layouts for each experiment session:
 
-| Layout   | Preview                                           | Description                         |
-|----------|---------------------------------------------------|-------------------------------------|
-| Layout 1 | ![Layout 1](/Images/Data Collection/layout-1.png) | Vertical, clean modern design       |
-| Layout 2 | ![Layout 2](/Images/Data Collection/layout-2.png) | Horizontal, split-screen approach   |
-| Layout 3 | ![Layout 3](/Images/Data Collection/layout-3.png) | Innovative corner-positioned layout |
-| Layout 4 | ![Layout 4](/Images/Data Collection/layout-4.png) | Modern diagonal layout              |
-| Layout 5 | ![Layout 5](/Images/Data Collection/layout-5.png) | Fully responsive clean layout       |
+| Layout   | Preview                                          | Description                         |
+|----------|--------------------------------------------------|-------------------------------------|
+| Layout 1 | ![Layout 1](Images/Data Collection/layout-1.png) | Vertical, clean modern design       |
+| Layout 2 | ![Layout 2](Images/Data Collection/layout-2.png) | Horizontal, split-screen approach   |
+| Layout 3 | ![Layout 3](Images/Data Collection/layout-3.png) | Innovative corner-positioned layout |
+| Layout 4 | ![Layout 4](Images/Data Collection/layout-4.png) | Modern diagonal layout              |
+| Layout 5 | ![Layout 5](Images/Data Collection/layout-5.png) | Fully responsive clean layout       |
 
 ## Key Components
 
@@ -83,8 +83,8 @@ The application randomly selects from 5 unique layouts for each experiment sessi
 - Trims trajectory data after the last click event and removes initial points where both x and y are 0
 
 ### Feature Analysis (`Torch/feature_analysis.py`)
-![Feature Importance](/Images/Neural Network/Feature Importance/top_features_importance.png)
-![Feature Importance Matrix](/Images/Neural Network/Feature Importance/correlation_matrix.png)
+![Feature Importance](Images/Neural Network/Feature Importance/top_features_importance.png)
+![Feature Importance Matrix](Images/Neural Network/Feature Importance/correlation_matrix.png)
 - Analyzes feature importance for deception detection
 - Most discriminative features include:
     - Acceleration changes
@@ -93,7 +93,7 @@ The application randomly selects from 5 unique layouts for each experiment sessi
     - Jerk metrics
 
 ## Neural Network
-![Neural Network Architecture](/Images/Neural Network/Architecture/architecture.svg)
+![Neural Network Architecture](Images/Neural Network/Architecture/architecture.svg)
 
 - Best model performance: 68.57% accuracy on test set
 - Better network performance noted when using preprocessed data with `truncate.py`
